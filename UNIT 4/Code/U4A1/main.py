@@ -1,0 +1,2 @@
+variable = (input)
+print (variable)
