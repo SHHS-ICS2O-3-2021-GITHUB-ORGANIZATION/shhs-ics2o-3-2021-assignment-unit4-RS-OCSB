@@ -11,6 +11,7 @@ finalVolume = 0
 
 # INPUT (information from user)
 
+#prompting user for the h,l,w and then assigning to a variable
 varHeight = int(input("Please enter the height: "))
 varLength = int(input("Please enter the length: "))
 varWidth = int(input("Please enter the width: "))
@@ -18,10 +19,11 @@ varWidth = int(input("Please enter the width: "))
 # PROCESSING (algorithim)
 print("Calculating Volume...")
 
+#calculating the final volume
 finalVolume = (varHeight * varLength * varWidth)
 
 
 # OUTPUT (print statement/export to file/game)
-
+#display volume to user
 print(str(finalVolume))
 
