@@ -14,6 +14,8 @@ finalSum = 0
 finalAverage = 0
 
 # INPUT (information from user)
+#prompting user for input and assigning to a variable
+
 num1 = int(input("Please enter your first number: "))
 num2 = int(input("Please enter your second number: "))
 num3 = int(input("Please enter your third number: "))
@@ -22,12 +24,13 @@ num5 = int(input("Please enter your fifth number: "))
 
 
 # PROCESSING (algorithim)
+#calculating sum and average of numbers
 
 finalSum = (num1 + num2 + num3 + num4 + num5)
-
 finalAverage = (finalSum /5)
 
 # OUTPUT (print statement/export to file/game)
+#displaying information to the user
 print("\nYour Selections Were...\n")
 
 from tabulate import tabulate
